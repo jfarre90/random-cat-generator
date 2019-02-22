@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    aling-items: center;
+}
+
+img {
+    width: 200px;
+}
