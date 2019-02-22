@@ -1,9 +1,11 @@
-body {
+.container {
     display: flex;
     flex-direction: column;
-    aling-items: center;
+    align-items: center;
 }
-
+#btn {
+    margin: 25px;
+}
 img {
     width: 200px;
 }

@@ -1,7 +1,7 @@
-// http://aws.random.cat/meow
+
 
 $("#btn").click(function(){
-  $.getJSON("https://random.cat/meow")
+  $.getJSON("http://aws.random.cat/meow")
   .done(function(data){
     $('#catImg').attr("src", data.file);
   })
